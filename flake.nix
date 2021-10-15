@@ -1,5 +1,5 @@
 {
-  description = "nspr nix flake.";
+  description = "nspr-dev nix flake for firefox nightly.";
 
   inputs = {
     nspr-dev-src = {
