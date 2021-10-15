@@ -1,0 +1,40 @@
+{
+  "nodes": {
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1634172192,
+        "narHash": "sha256-FBF4U/T+bMg4sEyT/zkgasvVquGzgdAf4y8uCosKMmo=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "2cf9db0e3d45b9d00f16f2836cb1297bcadc475e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nspr-dev": {
+      "flake": false,
+      "locked": {
+        "narHash": "sha256-pl+JYhaIMxFG7Lpe2yaLhihczNwZG0fU8W/Ita6ZQDg=",
+        "type": "tarball",
+        "url": "https://hg.mozilla.org/projects/nspr/archive/NSPR_4_32_RTM.zip"
+      },
+      "original": {
+        "type": "tarball",
+        "url": "https://hg.mozilla.org/projects/nspr/archive/NSPR_4_32_RTM.zip"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nixpkgs": "nixpkgs",
+        "nspr-dev": "nspr-dev"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
