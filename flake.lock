@@ -16,7 +16,7 @@
         "type": "github"
       }
     },
-    "nspr-dev": {
+    "nspr-dev-src": {
       "flake": false,
       "locked": {
         "narHash": "sha256-pl+JYhaIMxFG7Lpe2yaLhihczNwZG0fU8W/Ita6ZQDg=",
@@ -31,7 +31,7 @@
     "root": {
       "inputs": {
         "nixpkgs": "nixpkgs",
-        "nspr-dev": "nspr-dev"
+        "nspr-dev-src": "nspr-dev-src"
       }
     }
   },
