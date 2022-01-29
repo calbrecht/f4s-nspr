@@ -7,7 +7,6 @@
       url = https://hg.mozilla.org/projects/nspr/archive/NSPR_4_32_RTM.zip;
       flake = false;
     };
-    nixpkgs.url = github:nixos/nixpkgs/nixos-unstable;
   };
 
   outputs = { self, nixpkgs, nspr-dev-src }:
